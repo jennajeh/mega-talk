@@ -1,0 +1,121 @@
+main {
+  background-color: #aec0ce;
+  min-height: 100vh;
+}
+
+header .back {
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  background: url(../images/chevron-left-black.png) no-repeat 0 50% / contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+header .menu a {
+  background-image: url(../images/hamburger.png);
+}
+
+.conversation li {
+  display: flex;
+  padding: 3vw 4.2vw;
+}
+
+.conversation .avatar {
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 3.5vw;
+  background-position: 0 0;
+}
+
+.conversation .contents {
+  margin: 0.5vw 1.5vw 0 3vw;
+}
+
+.conversation .name {
+  font-size: 3.5vw;
+  font-weight: 400;
+  margin-bottom: 1.2vw;
+  color: #666;
+}
+
+.conversation .message {
+  position: relative;
+  font-size: 4vw;
+  font-weight: 400;
+  padding: 2vw;
+  border-radius: 3vw;
+  background-color: #fff;
+}
+
+.conversation .message::after {
+  position: absolute;
+  top: 0;
+  display: block;
+  content: "";
+  left: -1vw;
+  width: 2vw;
+  height: 2vw;
+  border-top: 2vw solid #fff;
+  border-right: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 2vw solid transparent;
+}
+
+.conversation time {
+  font-size: 3vw;
+  width: 34vw;
+  align-self: flex-end;
+  color: #666;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vw 2.5vw 5vw;
+  width: 100%;
+  background-color: #fff;
+}
+
+.reply form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5vw;
+  padding: 1.5vw;
+  width: 91%;
+  border: 1px solid #c5c4c4;
+  border-radius: 2.5vw;
+  background-color: #f9f8f8;
+}
+
+.reply form input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+}
+
+.reply button {
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+.reply .plus {
+  background-image: url(../images/plus.png);
+}
+
+.reply .emoji {
+  background-image: url(../images/emoji.png);
+}
+
+.reply .send {
+  background-image: url(../images/enter.png);
+}

@@ -20,6 +20,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+    z-index: 100;
     color: #0f7562;
     background-color: #ffdf23;
   }

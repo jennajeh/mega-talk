@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메가톡</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/status-bar.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/detail-chat.css" />
+  </head>
+  <body>
+    <div class="no-mobile">
+      <div class="logo">메가 톡</div>
+      <p>스크린 크기를 줄여주세요</p>
+    </div>
+
+    <main>
+      <aside class="status-bar">
+        <time datetime="09:00">9:00</time>
+        <ul>
+          <li class="cellular">셀룰러</li>
+          <li class="wifi">와이파이</li>
+          <li class="battery">배터리</li>
+        </ul>
+      </aside>
+
+      <header>
+        <a class="back" href="chats.html">뒤로 가기</a>
+        <h1>Boni</h1>
+        <nav>
+          <ul>
+            <li class="search">
+              <a href="detail-chat.html">검색</a>
+            </li>
+            <li class="menu">
+              <a href="detail-chat.html">메뉴</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <article>
+        <section class="conversation">
+          <ul>
+            <li>
+              <div>
+                <span class="avatar">프로필 이미지</span>
+              </div>
+              <div class="contents">
+                <h2 class="name">Boni</h2>
+                <p class="message">오늘 진짜 바쁘다</p>
+              </div>
+              <time datetime="22:30">오후 10:30</time>
+            </li>
+            <li>
+              <div>
+                <span class="avatar">프로필 이미지</span>
+              </div>
+              <div class="contents">
+                <h2 class="name">Boni</h2>
+                <p class="message">
+                  아 맞다 내일 점심 칼국수 어때?! 근처에 알아본 식당이 있는데
+                  항상 웨이팅 있고 이 동네에서 제일 유명한 맛집이래!!
+                </p>
+              </div>
+              <time datetime="23:57">오후 11:57</time>
+            </li>
+          </ul>
+        </section>
+
+        <section class="reply">
+          <button class="plus" type="button">더보기</button>
+          <form>
+            <input type="text" name="message" />
+            <button class="emoji" type="button">이모지 추가</button>
+            <button class="send" type="submit">메세지 전송</button>
+          </form>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
