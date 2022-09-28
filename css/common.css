@@ -1,0 +1,39 @@
+.avatar {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 5vw;
+  background: url(../images/avatar.png) no-repeat 0 50% / contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+.no-mobile {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .no-mobile {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: #0f7562;
+    background-color: #ffdf23;
+  }
+
+  .no-mobile .logo {
+    margin-bottom: 1em;
+    width: 7em;
+    height: 7em;
+    background: url(../images/logo.png) no-repeat 0 50% / contain;
+    text-indent: -1000px;
+    overflow: hidden;
+  }
+
+  .no-mobile p {
+    font-size: 1.3em;
+  }
+}

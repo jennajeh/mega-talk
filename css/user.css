@@ -1,0 +1,23 @@
+.user {
+  padding: 0 4.2vw;
+  height: 20vw;
+  width: 100%;
+}
+
+.user a {
+  display: flex;
+  align-items: center;
+  height: 20vw;
+  border-bottom: 1px solid #ddd;
+}
+
+.user .avatar {
+  transform: scale(1.2);
+}
+
+.user p {
+  font-size: 4.5vw;
+  font-weight: 700;
+  margin-left: 3.8vw;
+  color: #000;
+}

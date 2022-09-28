@@ -1,0 +1,60 @@
+.navigation {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0 5vw;
+  width: 100%;
+  height: 17vw;
+  background-color: #efefef;
+  border-top: 1px solid #ddd;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation li {
+  width: 13vw;
+  height: 17vw;
+}
+
+.navigation a {
+  display: block;
+  padding: 2vw;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 40%;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+.navigation .friend {
+  background-image: url(../images/user-blank.png);
+}
+
+.navigation .active .friend {
+  background-image: url(../images/user-fill.png);
+}
+
+.navigation .chatting {
+  background-image: url(../images/chat-blank.png);
+}
+
+.navigation .active .chatting {
+  background-image: url(../images/chat-fill.png);
+}
+
+.navigation .view {
+  background-image: url(../images/view-blank.png);
+}
+
+.navigation .shopping {
+  background-image: url(../images/shopping-blank.png);
+}
+
+.navigation .more {
+  background-image: url(../images/more-blank.png);
+}

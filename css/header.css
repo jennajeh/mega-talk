@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 4.2vw;
+  height: 10vw;
+}
+
+header h1 {
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+header ul {
+  display: flex;
+  gap: 4vw;
+}
+
+header a {
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+header .search a {
+  background-image: url(../images/search.png);
+}
+
+header .add-friend a {
+  background-image: url(../images/add-friend.png);
+}
+
+header .settings a {
+  background-image: url(../images/settings.png);
+}
